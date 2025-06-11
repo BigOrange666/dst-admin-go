@@ -37,7 +37,7 @@ jobs:
         platforms: linux/arm64
         push: true
         tags: |
-          ghcr.io/${{ github.repository_owner }}/dst-admin-go:arm64
-          ghcr.io/${{ github.repository_owner }}/dst-admin-go:latest
+          ghcr.io/bigorange666/dst-admin-go:arm64
+          ghcr.io/bigorange666/dst-admin-go:latest
         cache-from: type=gha
         cache-to: type=gha,mode=max
